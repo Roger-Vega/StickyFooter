@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stickyFooter.css">
+	<title>STICKY FOOTER</title>
+</head>
+<body>
+	<header id="header">Lorem Ipsum</header>
+	<section id="section">
+		<p><button onclick="agregarContenido()">+</button></p>
+		<p id="contenido"></p>
+	</section>
+	<footer id="footer">Aliquam Phasellus Proin</footer>
+</body>
+</html>
+
+<script type="text/javascript">	
+	function agregarContenido(){
+		document.getElementById("contenido").innerHTML += 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit, sapien vitae hendrerit mollis, magna enim lacinia tortor, vitae viverra nisi turpis a nulla. Proin dictum elementum ipsum, sit amet volutpat nisi luctus eu. Aliquam erat volutpat. Donec scelerisque nisi et mi aliquet porttitor. Donec tempus augue ac erat sagittis, vitae efficitur sem efficitur. In nec feugiat lectus. Phasellus quis leo ac sem pulvinar egestas.</br>';
+	}
+</script>

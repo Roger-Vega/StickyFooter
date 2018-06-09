@@ -1,0 +1,28 @@
+html{
+	height: 100%
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+header{
+	background-color: #216583;
+	padding: 10px;
+	color: white;
+}
+
+section{
+	flex: 1;
+	padding: 10px;
+	background-color: #cffdf8;
+}
+
+footer{
+	background-color: #2A363B;
+	color: white;
+	padding: 10px;
+}
